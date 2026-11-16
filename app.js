@@ -28,7 +28,7 @@
       added: 'အမှာစာထဲ ထည့်ပြီးပါပြီ',
       add: 'အမှာစာထဲ ထည့်ရန်',
       tier_table: 'လစဉ် ဝယ်ယူ အရေအတွက် အဆင့် ၅ ဆင့်',
-      tier_table_sub: 'ပေးချေရမည့်စျေး (Ks) · ပွိုင့်',
+      tier_table_sub: 'ပေးသွင်းစျေး (Ks)',
       tier_qty: 'လစဉ် အရေအတွက်',
       current: 'လက်ရှိ',
       tier_rule: 'အဆင့်ကို ပစ္စည်းတစ်မျိုးချင်းမဟုတ်ဘဲ ထိုလ၏ စုစုပေါင်း ဝယ်ယူအရေအတွက်ဖြင့် သတ်မှတ်ပါသည်။',
@@ -49,7 +49,7 @@
       township_ph: 'ဥပမာ) လှိုင်၊ စမ်းချောင်း',
       notes: 'မှတ်ချက်',
       notes_ph: 'ပို့ဆောင်ချိန်၊ ငွေပေးချေမှု စည်းကမ်း စသဖြင့်',
-      subtotal: 'ကုန်ပစ္စည် စုစုပေါင်း (T1)',
+      subtotal: 'ကုန်ပစ္စည် စုစုပေါင်း',
       tier_line: 'အဆင့် လျှော့စျေး',
       total: 'စုစုပေါင်း',
       copy: 'အမှာစာ ကူးယူရန်',
@@ -111,37 +111,7 @@
       calc_m50: 'တစ်လ ၅၀ ခု ရောင်းလျှင်',
       calc_reset: 'လက်လီစျေးသို့ ပြန်ထားရန်',
       calc_note: 'အမြတ် = ရောင်းစျေး − ပေးသွင်းစျေး (ပို့ဆောင်ခနှင့် ကော်မရှင် မပါဝင်ပါ)',
-      calc_neg: 'ပေးသွင်းစျေးထက် နည်းနေပါသည်',
-      /* --- ချက်ချင်း လျှော့စျေး + ပွိုင့် --- */
-      pts_kicker: 'POINT REWARD',
-      pts_title: 'ချက်ချင်း လျှော့စျေး + ပွိုင့်',
-      pts_sub: 'လစဉ် ဝယ်ယူမှု များလေလေ ချက်ချင်း လျှော့စျေးနှင့် ပွိုင့် နှစ်မျိုးလုံး တိုးလာပါသည်။',
-      pts_col_tier: 'အဆင့်',
-      pts_col_qty: 'အရေအတွက်',
-      pts_col_disc: 'လျှော့စျေး',
-      pts_col_point: 'ပွိုင့်',
-      pts_col_total: 'စုစုပေါင်း',
-      pts_r1_t: 'နောက်အမှာစာမှ စတင် အသုံးပြုနိုင်သည်',
-      pts_r1_b: 'အမှာစာ ငွေပမာဏ၏ အများဆုံး 50% အထိ ပွိုင့်ဖြင့် နုတ်နိုင်ပါသည်။',
-      pts_r2_t: 'ငွေသားအဖြစ် ပြန်လဲ၍ မရပါ',
-      pts_r2_b: 'ပွိုင့်ကို ငွေသားအဖြစ် ထုတ်ယူနိုင်မည် မဟုတ်ပါ။',
-      pts_r3_t: '၆၀ ရက် အမှာစာ မရှိလျှင် ပျက်သွားမည်',
-      pts_r3_b: '၆၀ ရက်အတွင်း အမှာစာ တစ်ခု ရှိလျှင် ပွိုင့်အားလုံး သက်တမ်း တိုးပါသည်။',
-      pts_note: 'ပွိုင့်သည် ပွိုင့် နုတ်ပြီးနောက် အမှန်တကယ် ပေးချေသည့် ငွေပမာဏအပေါ် တွက်ချက်ပါသည်။',
-      card_point: 'ပွိုင့် {p}%',
-      lbl_disc: 'ချက်ချင်း လျှော့စျေး',
-      lbl_use: 'ပွိုင့် နုတ်ယူမှု',
-      lbl_paid: 'အပြီးသတ် ပေးချေရမည့်ငွေ',
-      lbl_earn: 'ဤအမှာစာ ရရှိမည့် ပွိုင့်',
-      pts_form_title: 'ပွိုင့် အသုံးပြုမှု',
-      pts_form_hint: 'ဤအမှာစာ၏ အများဆုံး 50% ({c} Ks) အထိ ပွိုင့်ဖြင့် နုတ်နိုင်ပါသည်',
-      pts_use_label: 'ပွိုင့် အသုံးပြုမည်',
-      pts_max: 'အများဆုံး',
-      pts_over: 'အများဆုံး 50% အထိသာ နုတ်နိုင်ပါသည်',
-      calc_points: 'ပွိုင့် (တစ်ခုလျှင်)',
-      calc_net: 'ပွိုင့် အပါအဝင် တစ်ခုလျှင်',
-      kit_earn: 'ရရှိမည့် ပွိုင့်',
-      earn_short: 'ပွိုင့်'
+      calc_neg: 'ပေးသွင်းစျေးထက် နည်းနေပါသည်'
     },
     en: {
       hero_eyebrow: 'K-BEAUTY · INNER BEAUTY · 2026',
@@ -160,7 +130,7 @@
       added: 'Added to your order',
       add: 'Add to order',
       tier_table: 'Monthly volume — 5 supply tiers',
-      tier_table_sub: 'Price paid (Ks) · points',
+      tier_table_sub: 'Supply price (Ks)',
       tier_qty: 'Monthly quantity',
       current: 'Current',
       tier_rule: 'Your tier is set by the total quantity of all items in one month, not by item.',
@@ -243,36 +213,7 @@
       calc_m50: '50 pcs / month',
       calc_reset: 'Reset to retail',
       calc_note: 'Margin = selling price − supply price (delivery and fees excluded)',
-      calc_neg: 'Below supply price',
-      pts_kicker: 'POINT REWARD',
-      pts_title: 'Instant discount + point rewards',
-      pts_sub: 'The more you buy in a month, the bigger both the instant discount and the points.',
-      pts_col_tier: 'Tier',
-      pts_col_qty: 'Monthly volume',
-      pts_col_disc: 'Instant discount',
-      pts_col_point: 'Points',
-      pts_col_total: 'Total',
-      pts_r1_t: 'Usable from your next order',
-      pts_r1_b: 'Up to 50% of an order amount can be paid with points.',
-      pts_r2_t: 'No cash refund',
-      pts_r2_b: 'Points cannot be converted into cash.',
-      pts_r3_t: 'Expires after 60 days without an order',
-      pts_r3_b: 'Any single order within 60 days extends the whole balance.',
-      pts_note: 'Points are earned on the amount actually paid after redemption.',
-      card_point: 'earn {p}%',
-      lbl_disc: 'Instant discount',
-      lbl_use: 'Points used',
-      lbl_paid: 'Amount due',
-      lbl_earn: 'Points you will earn',
-      pts_form_title: 'Use your points',
-      pts_form_hint: 'Up to 50% of this order ({c} Ks) can be paid with points',
-      pts_use_label: 'Use points',
-      pts_max: 'Max',
-      pts_over: 'You can use up to 50% of the order',
-      calc_points: 'Points per pc',
-      calc_net: 'Net per pc incl. points',
-      kit_earn: 'Points earned',
-      earn_short: 'pts'
+      calc_neg: 'Below supply price'
     },
     zh: {
       hero_eyebrow: 'K-BEAUTY · INNER BEAUTY · 2026',
@@ -291,7 +232,7 @@
       added: '已加入订单',
       add: '加入订单',
       tier_table: '月度采购量 5 级批发价',
-      tier_table_sub: '实付价（Ks）· 积分',
+      tier_table_sub: '批发价（Ks）',
       tier_qty: '月采购量',
       current: '当前',
       tier_rule: '等级按当月全部商品合计采购量计算，不是按单个商品计算。',
@@ -312,7 +253,7 @@
       township_ph: '例：Hlaing、Sanchaung',
       notes: '备注',
       notes_ph: '送货时间、付款条件等',
-      subtotal: '商品小计（T1）',
+      subtotal: '商品小计',
       tier_line: '等级优惠',
       total: '总计',
       copy: '复制订单',
@@ -374,47 +315,13 @@
       calc_m50: '月销 50 件',
       calc_reset: '恢复零售价',
       calc_note: '毛利 = 售价 − 批发价（不含运费与平台费）',
-      calc_neg: '低于批发价',
-      pts_kicker: 'POINT REWARD',
-      pts_title: '即时折扣 + 积分回馈',
-      pts_sub: '月采购量越高，即时折扣与积分同时提高。',
-      pts_col_tier: '等级',
-      pts_col_qty: '月采购量',
-      pts_col_disc: '即时折扣',
-      pts_col_point: '积分',
-      pts_col_total: '合计',
-      pts_r1_t: '下次订单起可用',
-      pts_r1_b: '每笔订单最高可用积分抵扣 50%。',
-      pts_r2_t: '不可兑换现金',
-      pts_r2_b: '积分不能兑换为现金。',
-      pts_r3_t: '60 天未下单即失效',
-      pts_r3_b: '60 天内下单一次，全部积分自动延期。',
-      pts_note: '积分按抵扣后实付金额计算。',
-      card_point: '积分 {p}%',
-      lbl_disc: '即时折扣',
-      lbl_use: '积分抵扣',
-      lbl_paid: '应付金额',
-      lbl_earn: '本单预计积分',
-      pts_form_title: '使用积分',
-      pts_form_hint: '本单最高可用积分抵扣 50%（{c} Ks）',
-      pts_use_label: '使用积分',
-      pts_max: '最多',
-      pts_over: '最多只能抵扣订单的 50%',
-      calc_points: '每件积分',
-      calc_net: '含积分每件',
-      kit_earn: '获得积分',
-      earn_short: '积分'
+      calc_neg: '低于批发价'
     }
   };
 
   var TIER_ORDER = ['T1', 'T2', 'T3', 'T4', 'T5'];
   var TIER_MIN = { T1: 1, T2: 50, T3: 150, T4: 300, T5: 500 };
-  // 하이브리드 리베이트 정책 — data.js(build_data.py ← work/mk/points_policy.py)와 동일한 숫자
-  var PT = D.pointPolicy || {
-    disc: { T1: 0, T2: 1, T3: 2, T4: 3, T5: 4 },
-    point: { T1: 1, T2: 2, T3: 4, T4: 6, T5: 8 },
-    maxUsePct: 50, expiryDays: 60
-  };
+  var DISC = { T1: 0 };           // display only; per-item discount is computed from the ladder
   var LS_CART = 'sp_cart_v1';
   var LS_BUYER = 'sp_buyer_v1';
   var LS_LANG = 'sp_lang_v1';
@@ -465,9 +372,10 @@
     return 'T1';
   }
   function priceOf(p, tier) { return tier === 'T1' ? p.s1 : p.tiers[tier]; }
-  function discOf(p, tier) { return PT.disc[tier] || 0; }
-  function pointPct(tier) { return PT.point[tier] || 0; }
-  function pointOf(amount, tier) { return Math.round(amount * pointPct(tier) / 100); }
+  function discOf(p, tier) {
+    if (tier === 'T1') return 0;
+    return Math.round((1 - p.tiers[tier] / p.s1) * 100);
+  }
   function curTier() { return tierFor(cartQty()); }
   function cartLines() {
     var tier = curTier(), out = [];
@@ -484,17 +392,7 @@
     var lines = cartLines(), tier = curTier();
     var total = 0, base = 0, qty = 0;
     lines.forEach(function (l) { total += l.line; base += l.base; qty += l.q; });
-    var cap = Math.floor(total * PT.maxUsePct / 100);
-    var use = 0;
-    if (state.buyer && state.buyer.usePoints && total > 0) {
-      use = Math.min(Math.max(0, Math.round(state.buyer.pointsUse || 0)), cap);
-    }
-    var paid = total - use;
-    return {
-      lines: lines, tier: tier, total: total, base: base, qty: qty,
-      saving: base - total, discPct: discOf(null, tier), pct: pointPct(tier),
-      cap: cap, use: use, paid: paid, earn: pointOf(paid, tier)
-    };
+    return { lines: lines, tier: tier, total: total, base: base, saving: base - total, qty: qty };
   }
 
   /* ---------------------------------------------------------- starter kit */
@@ -506,22 +404,16 @@
     return KIT.map(function (no) { return BY_NO[no]; }).filter(Boolean);
   }
   function kitTotals(per) {
-    var items = kitItems(), s1 = 0, retail = 0;
+    var items = kitItems(), s1 = 0, retail = 0, t2 = 0;
     items.forEach(function (p) {
       s1 += p.s1 * per;
       retail += p.R * per;
+      t2 += p.tiers.T2 * per;
     });
-    var qty = items.length * per;
-    var tier = tierFor(qty);
-    var paid = 0;
-    items.forEach(function (p) { paid += priceOf(p, tier) * per; });
-    var points = pointOf(paid, tier);
-    var profit = retail - paid;
+    var profit = retail - s1;
     return {
-      items: items, per: per, qty: qty, tier: tier,
-      s1: s1, disc: s1 - paid, paid: paid, points: points,
-      pct: pointPct(tier), retail: retail, profit: profit,
-      profitNet: profit + points,
+      items: items, per: per, qty: items.length * per,
+      s1: s1, retail: retail, profit: profit, t2: t2,
       rate: retail ? profit / retail * 100 : 0
     };
   }
@@ -537,9 +429,8 @@
         '<span class="kit-txt">' +
           '<span class="kit-kick">' + esc(t('kit_kicker')) + '</span>' +
           '<b class="kit-title">' + esc(t('kit_title')) + '</b>' +
-          '<span class="kit-sub">' + esc(t('kit_sub').replace('{n}', fmt(T.paid))) + '</span>' +
-          '<span class="kit-gain">' + esc(t('kit_profit_line').replace('{p}', fmt(T.profit))) +
-            ' · ' + esc(t('kit_earn')) + ' ' + fmt(T.points) + ' Ks</span>' +
+          '<span class="kit-sub">' + esc(t('kit_sub').replace('{n}', fmt(T.s1))) + '</span>' +
+          '<span class="kit-gain">' + esc(t('kit_profit_line').replace('{p}', fmt(T.profit))) + '</span>' +
         '</span>' +
         '<span class="kit-go" aria-hidden="true">›</span>' +
       '</button>';
@@ -567,23 +458,19 @@
     $('#kitBody').innerHTML =
       '<div class="kit-sum">' +
         '<div class="ks-row"><span>' + t('kit_supply_total') + '</span><b>' + fmt(T.s1) + ' Ks</b></div>' +
-        (T.disc ? '<div class="ks-row"><span>' + t('lbl_disc') + ' · ' + T.tier + ' −' + T.pct + '%</span><b>−' + fmt(T.disc) + ' Ks</b></div>' : '') +
-        '<div class="ks-row"><span>' + t('lbl_paid') + '</span><b>' + fmt(T.paid) + ' Ks</b></div>' +
-        '<div class="ks-row"><span>' + t('kit_earn') + ' · ' + T.tier + ' ' + T.pct + '%</span><b>+' + fmt(T.points) + ' Ks</b></div>' +
         '<div class="ks-row"><span>' + t('kit_retail_total') + '</span><b>' + fmt(T.retail) + ' Ks</b></div>' +
         '<div class="ks-row hi"><span>' + t('kit_profit') + '</span>' +
-          '<b>' + fmt(T.profitNet) + ' Ks<em>' + T.rate.toFixed(1) + '%</em></b></div>' +
+          '<b>' + fmt(T.profit) + ' Ks<em>' + T.rate.toFixed(1) + '%</em></b></div>' +
       '</div>' +
-      '<p class="kit-note">' + t('pts_note') + '</p>' +
       '<div class="cart-sect" style="margin-top:16px"><h3>' + T.items.length + ' ' + t('items_short') + '</h3>' + rows + '</div>' +
       '<p class="kit-note">' + esc(t('kit_note')) + '</p>';
 
     $('#kitFoot').innerHTML =
       '<div class="kit-btns">' +
         '<button class="btn btn-coral" id="kitAdd">' + esc(t('kit_add_all')) +
-          ' · ' + fmt(T.paid) + ' Ks</button>' +
+          ' · ' + fmt(T.s1) + ' Ks</button>' +
         '<button class="btn btn-ghost" id="kitAddBulk">' + esc(t('kit_add_bulk')) +
-          ' · ' + fmt(B.paid) + ' Ks</button>' +
+          ' · ' + fmt(B.t2) + ' Ks</button>' +
       '</div>';
 
     $('#kitAdd').onclick = function () { addKit(KIT_EACH); };
@@ -609,48 +496,6 @@
       return '<button class="cat' + (state.cat === c.id ? ' on' : '') + '" data-cat="' + c.id + '">' +
         esc(c[state.lang] || c.en) + '<span class="n">' + n + '</span></button>';
     }).join('');
-  }
-
-  /* ---------------------------------------------------------- render: points */
-  function renderPoints() {
-    var host = $('#ptsTable');
-    if (!host) return;
-    $('#ptsKicker').textContent = t('pts_kicker');
-    $('#ptsTitle').textContent = t('pts_title');
-    $('#ptsSub').textContent = t('pts_sub');
-    $('#ptsNote').textContent = t('pts_note');
-
-    var head = '<div class="ptrow hd">' +
-      '<span>' + t('pts_col_tier') + '</span>' +
-      '<span>' + t('pts_col_qty') + '</span>' +
-      '<span>' + t('pts_col_disc') + '</span>' +
-      '<span>' + t('pts_col_point') + '</span>' +
-      '<span>' + t('pts_col_total') + '</span>' +
-      '</div>';
-    var body = D.tiers.map(function (d) {
-      var total = (d.disc || 0) + (d.point || 0);
-      var cur = d.id === curTier();
-      return '<div class="ptrow' + (cur ? ' cur' : '') + '">' +
-        '<span class="tid">' + d.id + '</span>' +
-        '<span class="qty">' + d.qty + '</span>' +
-        '<span class="dv">' + ((d.disc || 0) ? '−' + d.disc + '%' : '0%') + '</span>' +
-        '<span class="pv">+' + d.point + '%</span>' +
-        '<span class="tt">' + total + '%</span>' +
-        '</div>';
-    }).join('');
-    host.innerHTML = head + body;
-
-    var rules = [
-      ['1', 'pts_r1_t', 'pts_r1_b'],
-      ['2', 'pts_r2_t', 'pts_r2_b'],
-      ['3', 'pts_r3_t', 'pts_r3_b']
-    ].map(function (r) {
-      return '<div class="ptrule">' +
-        '<i>' + r[0] + '</i>' +
-        '<div><b>' + t(r[1]) + '</b><span>' + t(r[2]) + '</span></div>' +
-      '</div>';
-    }).join('');
-    $('#ptsRules').innerHTML = rules;
   }
 
   /* ---------------------------------------------------------- render: grid */
@@ -682,7 +527,6 @@
             '<span class="price-main">' + fmt(price) + '</span><span class="cur">Ks</span>' +
             '<span class="cretail">' + fmt(p.R) + '</span>' +
           '</div>' +
-          '<div class="cpoint">+ ' + t('card_point').replace('{p}', String(pointPct(tier))) + '</div>' +
         '</div>' +
       '</button>' +
       '<div class="cfoot">' +
@@ -714,7 +558,7 @@
     if (!T.qty) return;
     $('#cbCount').textContent = T.qty + ' ' + t('piece');
     $('#cbTier').textContent = T.tier;
-    $('#cbTotal').textContent = fmt(T.paid);
+    $('#cbTotal').textContent = fmt(T.total);
     $('#cbN').textContent = T.lines.length;
     document.body.style.paddingBottom = '';
   }
@@ -750,12 +594,8 @@
         '<div class="cr"><span>' + t('calc_margin_rate') + '</span><b id="cmRate">—</b></div>' +
       '</div>' +
       '<div class="calc-row2">' +
-        '<div class="cw"><span id="cmPtsLbl">' + t('calc_points') + '</span><b id="cmPoints">—</b></div>' +
-        '<div class="cw"><span>' + t('calc_net') + '</span><b id="cmNet">—</b></div>' +
-      '</div>' +
-      '<div class="calc-row2">' +
-        '<div class="cw"><span>' + t('calc_m30') + ' <small>+P</small></span><b id="cmM30">—</b></div>' +
-        '<div class="cw"><span>' + t('calc_m50') + ' <small>+P</small></span><b id="cmM50">—</b></div>' +
+        '<div class="cw"><span>' + t('calc_m30') + '</span><b id="cmM30">—</b></div>' +
+        '<div class="cw"><span>' + t('calc_m50') + '</span><b id="cmM50">—</b></div>' +
       '</div>' +
       '<div class="calc-foot"><span id="cmSupply">—</span>' +
         '<span class="calc-warn" id="cmWarn"></span></div>' +
@@ -789,7 +629,7 @@
     var rate = sell > 0 ? margin / sell * 100 : 0;
 
     if (!sell) {
-      ['#cmMargin', '#cmRate', '#cmM30', '#cmM50', '#cmPoints', '#cmNet'].forEach(function (sel) {
+      ['#cmMargin', '#cmRate', '#cmM30', '#cmM50'].forEach(function (sel) {
         var e = $(sel); if (e) { e.innerHTML = '—'; e.classList.remove('neg'); }
       });
       var s0 = $('#cmSupply');
@@ -798,12 +638,9 @@
       return;
     }
 
-    var pts = pointOf(sup, tier);
     money(margin, $('#cmMargin'));
-    money(margin + pts, $('#cmNet'));
-    money(pts, $('#cmPoints'));
-    money((margin + pts) * 30, $('#cmM30'));
-    money((margin + pts) * 50, $('#cmM50'));
+    money(margin * 30, $('#cmM30'));
+    money(margin * 50, $('#cmM50'));
 
     var r = $('#cmRate');
     if (r) {
@@ -856,7 +693,6 @@
         '<span class="tqty">' + D.tiers[TIER_ORDER.indexOf(tr)].qty + ' ' + t('piece') +
           (isCur ? ' · <b style="color:var(--coral-deep)">' + t('current') + '</b>' : '') + '</span>' +
         '<span class="tprice">' + fmt(pr) + (d ? '<em>−' + d + '%</em>' : '') + '</span>' +
-        '<span class="tpts">+' + pointPct(tr) + '%</span>' +
       '</div>';
     }).join('');
 
@@ -877,8 +713,7 @@
       '<div class="d-price">' +
         '<div><div class="lbl">' + t('supply') + ' · ' + tier + '</div>' +
         '<div class="val" id="dPrice">' + fmt(priceOf(p, tier)) + '<small>Ks</small></div></div>' +
-        '<div class="retail">' + t('card_point').replace('{p}', String(pointPct(tier))) +
-          '<b>+' + fmt(pointOf(priceOf(p, tier), tier)) + ' Ks</b>' + t('retail') + '<b>' + fmt(p.R) + ' Ks</b></div>' +
+        '<div class="retail">' + t('retail') + '<b>' + fmt(p.R) + ' Ks</b></div>' +
       '</div>' +
       '<div class="tiers">' +
         '<div class="tiers-h"><b>' + t('tier_table') + '</b><span>' + t('tier_table_sub') + '</span></div>' +
@@ -974,8 +809,7 @@
         '<div class="ci-mid">' +
           '<div class="ci-brand">' + esc(brandOf(l.p)) + '</div>' +
           '<div class="ci-name">' + esc(l.p.name[state.lang]) + '</div>' +
-          '<div class="ci-unit">' + fmt(l.unit) + ' Ks × ' + l.q + (d ? ' · −' + d + '%' : '') +
-            ' · +' + fmt(pointOf(l.line, tier)) + ' ' + t('earn_short') + '</div>' +
+          '<div class="ci-unit">' + fmt(l.unit) + ' Ks × ' + l.q + (d ? ' · −' + d + '%' : '') + '</div>' +
         '</div>' +
         '<div class="ci-right">' +
           '<div class="ci-total">' + fmt(l.line) + '</div>' +
@@ -1009,30 +843,14 @@
           '<input id="i-town" value="' + esc(b.town || '') + '" placeholder="' + esc(t('township_ph')) + '"></div>' +
         '<div class="field"><label>' + t('notes') + '</label>' +
           '<textarea id="i-note" placeholder="' + esc(t('notes_ph')) + '">' + esc(b.note || '') + '</textarea></div>' +
-      '</div>' +
-      '<div class="cart-sect"><h3>' + t('pts_form_title') + '</h3>' +
-        '<div class="ptsbox' + (b.usePoints ? ' on' : '') + '">' +
-          '<label class="ptcheck"><input type="checkbox" id="i-usepoints"' + (b.usePoints ? ' checked' : '') + '>' +
-            '<span>' + t('pts_use_label') + '</span></label>' +
-          '<div class="ptsrow">' +
-            '<input id="i-pointsuse" inputmode="numeric" autocomplete="off" value="' + (b.usePoints ? fmt(T.use) : '') + '" placeholder="0"' + (b.usePoints ? '' : ' disabled') + '>' +
-            '<span>Ks</span>' +
-            '<button type="button" class="ptmax" id="i-ptmax"' + (b.usePoints ? '' : ' disabled') + '>' +
-              t('pts_max') + ' 50%</button>' +
-          '</div>' +
-          '<div class="hint" id="ptsHint">' + esc(t('pts_form_hint').replace('{c}', fmt(T.cap))) + '</div>' +
-        '</div>' +
       '</div>';
 
     $('#cartFoot').innerHTML =
       '<div class="sum-mini sum">' +
-        '<div class="sum-row"><span>' + t('subtotal') + '</span><b>' + fmt(T.base) + ' Ks</b></div>' +
-        (T.saving ? '<div class="sum-row save"><span>' + t('lbl_disc') + ' · ' + tier + ' −' + T.discPct + '%</span><b>−' + fmt(T.saving) + ' Ks</b></div>' : '') +
-        (T.use ? '<div class="sum-row save"><span>' + t('lbl_use') + '</span><b>−' + fmt(T.use) + ' Ks</b></div>' : '') +
-        '<div class="sum-total"><span class="l">' + t('lbl_paid') + ' · ' + T.qty + ' ' + t('piece') + '</span>' +
-          '<span class="v">' + fmt(T.paid) + '<small>Ks</small></span></div>' +
-        '<div class="sum-row earn"><span>' + t('lbl_earn') + ' · ' + tier + ' ' + T.pct + '%</span>' +
-          '<b>+' + fmt(T.earn) + ' Ks</b></div>' +
+        '<div class="sum-row"><span>' + t('subtotal') + ' (T1)</span><b>' + fmt(T.base) + ' Ks</b></div>' +
+        (T.saving ? '<div class="sum-row save"><span>' + t('tier_line') + ' · ' + tier + '</span><b>−' + fmt(T.saving) + ' Ks</b></div>' : '') +
+        '<div class="sum-total"><span class="l">' + t('total') + ' · ' + T.qty + ' ' + t('piece') + '</span>' +
+          '<span class="v">' + fmt(T.total) + '<small>Ks</small></span></div>' +
       '</div>' +
       '<div class="btn-row">' +
         '<button class="btn btn-primary" id="btnCopy">' + t('copy') + '</button>' +
@@ -1050,50 +868,6 @@
     });
     $('#btnCopy').onclick = doCopy;
     $('#btnMail').onclick = function (e) { if (!validate()) { e.preventDefault(); } };
-
-    // 포인트 사용 입력
-    var chk = $('#i-usepoints');
-    var pin = $('#i-pointsuse');
-    var pmax = $('#i-ptmax');
-    if (chk) {
-      chk.onchange = function () {
-        state.buyer.usePoints = chk.checked;
-        if (chk.checked && !(state.buyer.pointsUse > 0)) state.buyer.pointsUse = T.cap;
-        if (!chk.checked) state.buyer.pointsUse = 0;
-        store(LS_BUYER, state.buyer);
-        renderCart(); renderCartBar();
-      };
-    }
-    if (pin) {
-      pin.oninput = function () {
-        var raw = String(pin.value).replace(/[^0-9]/g, '').slice(0, 9);
-        var v = raw ? parseInt(raw, 10) : 0;
-        state.buyer.pointsUse = v;
-        store(LS_BUYER, state.buyer);
-        var h = $('#ptsHint');
-        if (h) {
-          var over = v > T.cap;
-          h.textContent = over ? t('pts_over') : t('pts_form_hint').replace('{c}', fmt(T.cap));
-          h.classList.toggle('err', over);
-        }
-        renderCartBar();
-        var m = $('#btnMail'); if (m) m.setAttribute('href', mailHref());
-      };
-      pin.onblur = function () {
-        var v = parseInt(String(pin.value).replace(/[^0-9]/g, ''), 10) || 0;
-        state.buyer.pointsUse = Math.min(Math.max(0, v), T.cap);
-        store(LS_BUYER, state.buyer);
-        renderCart(); renderCartBar();
-      };
-    }
-    if (pmax) {
-      pmax.onclick = function () {
-        state.buyer.usePoints = true;
-        state.buyer.pointsUse = T.cap;
-        store(LS_BUYER, state.buyer);
-        renderCart(); renderCartBar();
-      };
-    }
   }
 
   /* ---------------------------------------------------------- order text */
@@ -1120,11 +894,8 @@
     });
     L.push('');
     L.push(t('lbl_total_qty') + ': ' + T.qty + ' ' + t('piece') + '  |  ' + t('lbl_tier') + ' ' + T.tier);
-    L.push(t('subtotal') + ': ' + fmt(T.base) + ' Ks');
-    if (T.saving) L.push(t('lbl_disc') + ' (' + T.tier + ' −' + T.discPct + '%): −' + fmt(T.saving) + ' Ks');
-    if (T.use) L.push(t('lbl_use') + ': −' + fmt(T.use) + ' Ks');
-    L.push(t('lbl_paid') + ': ' + fmt(T.paid) + ' Ks');
-    L.push(t('lbl_earn') + ': +' + fmt(T.earn) + ' Ks (' + T.tier + ' ' + T.pct + '%)');
+    L.push(t('lbl_total') + ': ' + fmt(T.total) + ' Ks');
+    if (T.saving) L.push('(' + t('tier_line') + ' −' + fmt(T.saving) + ' Ks)');
     if (b.note) { L.push(''); L.push(t('lbl_note') + ': ' + b.note); }
     L.push('');
     L.push('SeoulPick · ' + D.contact.tiktok + ' · ' + D.contact.email);
@@ -1216,7 +987,7 @@
     $('#footNote').textContent = t('foot_note');
     $('#emptyTitle').textContent = t('search_empty');
     $('#emptySub').textContent = t('search_empty_sub');
-    renderCats(); renderGrid(); renderCartBar(); renderCart(); renderKit(); renderPoints();
+    renderCats(); renderGrid(); renderCartBar(); renderCart(); renderKit();
     if (state.sheet === 'kit') openKit();
     if (state.detailNo) { var no = state.detailNo; openDetail(no); }
   }
@@ -1286,7 +1057,6 @@
     });
 
     renderKit();
-    renderPoints();
     renderCartBar();
   }
 
