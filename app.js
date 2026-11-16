@@ -856,7 +856,7 @@
         '<span class="tqty">' + D.tiers[TIER_ORDER.indexOf(tr)].qty + ' ' + t('piece') +
           (isCur ? ' · <b style="color:var(--coral-deep)">' + t('current') + '</b>' : '') + '</span>' +
         '<span class="tprice">' + fmt(pr) + (d ? '<em>−' + d + '%</em>' : '') + '</span>' +
-        '<span class="tpts">+' + pointPct(tr) + '%</span>' +
+        '<span class="tpts">+' + fmt(pointOf(pr, tr)) + '<em>' + pointPct(tr) + '%</em></span>' +
       '</div>';
     }).join('');
 
