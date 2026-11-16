@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="mm">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FFFBF6">
+<title>SeoulPick · K-Beauty Wholesale Yangon</title>
+<meta name="description" content="SeoulPick — K-Beauty & inner beauty wholesale catalogue for Yangon partners. 5-tier supply pricing in Kyat.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-in">
+    <div class="brand">
+      <span class="mark">S</span>
+      <span class="wordmark"><b>SEOULPICK</b><small>YANGON · WHOLESALE</small></span>
+    </div>
+    <div class="lang" id="lang" role="group" aria-label="Language">
+      <button data-lang="mm" class="on">MM</button>
+      <button data-lang="en">EN</button>
+      <button data-lang="ko">KO</button>
+    </div>
+  </div>
+</header>
+
+<div class="hero-wrap">
+<section class="hero">
+  <div class="hero-eyebrow" id="heroEyebrow">K-BEAUTY · INNER BEAUTY · 2026</div>
+  <h1 id="heroTitle">K-Beauty လက်ကား စျေးနှုန်း — ရန်ကုန်</h1>
+  <p id="heroSub"></p>
+  <div class="hero-stats">
+    <div class="hstat"><b>33</b><span id="stItems">ကုန်ပစ္စည်း</span></div>
+    <div class="hstat"><b>T1–T5</b><span id="stTiers">အဆင့် စနစ်</span></div>
+    <div class="hstat"><b>Ks</b><span id="stCur">ကျပ်ငွေသာ</span></div>
+  </div>
+</section>
+</div>
+
+<div class="wrap">
+  <div class="tools" id="tools">
+    <div class="search" id="searchBox">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.6-3.6"></path></svg>
+      <input id="q" type="search" autocomplete="off" placeholder="ကုန်ပစ္စည်း ရှာဖွေရန်">
+      <button id="qClear" aria-label="clear">✕</button>
+    </div>
+    <div class="cats" id="cats"></div>
+  </div>
+
+  <main>
+    <div style="display:flex;justify-content:space-between;align-items:baseline;padding:2px 0 9px">
+      <span id="resultCount" style="font-size:11px;color:var(--faint);font-weight:600;letter-spacing:.04em"></span>
+      <span style="font-size:10px;color:var(--faint)">2026.11</span>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty">
+      <b>ရှာမတွေ့ပါ</b>
+      <span>အခြား စကားလုံး သို့မဟုတ် အမျိုးအစား ရွေးပါ</span>
+    </div>
+
+    <section class="sourcing">
+      <div class="kicker" id="sourceKicker">BEYOND THIS CATALOG</div>
+      <h2 id="sourceTitle">စာရင်းတွင် မပါသော ကိုရီးယား ပစ္စည်းများ</h2>
+      <p id="sourceBody">လိုချင်သော ကုန်ပစ္စည်း အမည်၊ ဓာတ်ပုံ သို့မဟုတ် လင့်ခ် ပို့ပါ — သီးသန့် စျေးနှုန်း (custom quote) ပြန်ပို့ပါမည်။</p>
+      <div class="acts">
+        <a class="primary" href="mailto:ahndc77@gmail.com?subject=SeoulPick%20custom%20quote%20request" id="sourceCta">စျေးနှုန်း တောင်းရန်</a>
+        <a href="https://www.tiktok.com/@seoulpick.mm" target="_blank" rel="noopener">TikTok DM · @seoulpick.mm</a>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <b>SEOULPICK · YANGON</b><br>
+      <span id="copyMail">ahndc77@gmail.com</span> · <span id="copyLink">အီးမေးလ်</span><br>
+      <span id="footNote"></span>
+    </footer>
+  </main>
+</div>
+
+<!-- sticky cart bar -->
+<div class="cartbar" id="cartbar">
+  <div class="cartbar-in">
+    <div class="cb-info">
+      <div class="cb-top"><span id="cbTier">T1</span><span class="dot"></span><span id="cbCount">0 pcs</span></div>
+      <div class="cb-total"><span id="cbTotal">0</span><small>Ks</small></div>
+    </div>
+    <button class="cb-btn"><span id="cbOrderLabel">အမှာစာ</span><span class="n" id="cbN">0</span></button>
+  </div>
+</div>
+
+<div class="backdrop" id="backdrop"></div>
+
+<!-- product detail -->
+<div class="sheet" id="detailSheet" role="dialog" aria-modal="true">
+  <div class="grab"><i></i></div>
+  <div class="sheet-head">
+    <div><h2 id="detailTitle">—</h2><div class="sub" id="detailSub"></div></div>
+    <button class="iconbtn" data-close aria-label="close">✕</button>
+  </div>
+  <div class="sheet-body" id="detailBody"></div>
+  <div class="sheet-foot" id="detailFoot"></div>
+</div>
+
+<!-- cart / order sheet -->
+<div class="sheet" id="cartSheet" role="dialog" aria-modal="true">
+  <div class="grab"><i></i></div>
+  <div class="sheet-head">
+    <div><h2 id="cartTitle">အမှာစာ</h2><div class="sub" id="cartSub"></div></div>
+    <div style="display:flex;gap:6px">
+      <button class="iconbtn" id="cartClear" aria-label="clear">↺</button>
+      <button class="iconbtn" data-close aria-label="close">✕</button>
+    </div>
+  </div>
+  <div class="sheet-body" id="cartBody"></div>
+  <div class="sheet-foot" id="cartFoot"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
