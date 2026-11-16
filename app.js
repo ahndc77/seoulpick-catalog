@@ -68,6 +68,7 @@
       sourcing_title: 'စာရင်းတွင် မပါသော ကိုရီးယား ပစ္စည်းများ',
       sourcing_body: 'လိုချင်သော ကုန်ပစ္စည်း အမည်၊ ဓာတ်ပုံ သို့မဟုတ် လင့်ခ် ပို့ပါ — သီးသန့် စျေးနှုန်း (custom quote) ပြန်ပို့ပါမည်။',
       sourcing_cta: 'စျေးနှုန်း တောင်းရန်',
+      quote_subject: 'SeoulPick custom quote request',
       tiktok_dm: 'TikTok DM',
       email_me: 'အီးမေးလ်',
       foot_note: 'ဈေးနှုန်းများသည် ၂၀၂၆ ခုနှစ် နိုဝင်ဘာ ၁၄ ရက် အနေအထား ဖြစ်ပါသည်။ ပို့ဆောင်ခြင်းနှင့် ငွေပေးချေမှု စည်းကမ်းများကို ပါတနာအလိုက် ညှိနှိုင်းပါသည်။',
@@ -143,6 +144,7 @@
       sourcing_title: 'Need a Korean product that is not listed?',
       sourcing_body: 'Send the product name, a photo or a link — we reply with a custom quote.',
       sourcing_cta: 'Request a quote',
+      quote_subject: 'SeoulPick custom quote request',
       tiktok_dm: 'TikTok DM',
       email_me: 'Email',
       foot_note: 'Prices as of 14 Nov 2026. Delivery and payment terms are agreed per partner.',
@@ -161,80 +163,81 @@
       sect_beauty: 'Beauty · K-Beauty',
       sect_inner: 'Inner Beauty · Supplements'
     },
-    ko: {
+    zh: {
       hero_eyebrow: 'K-BEAUTY · INNER BEAUTY · 2026',
-      hero_title: 'K-뷰티 파트너 카탈로그 · 양곤',
-      hero_sub: '틱톡 셀러·매장 사장님을 위한 파트너 공급가 · 33종',
-      stat_items: '개 품목',
-      stat_tiers: '단계 등급',
-      stat_currency: '짯(Ks) 기준',
-      search: '상품 검색 (이름 / 브랜드)',
-      all: '전체',
-      supply: '공급가',
-      retail: '소매가',
-      detail_title: '상품 상세',
-      save_more: '대량일수록 저렴',
-      items_short: '종',
-      added: '주문에 담았습니다',
-      add: '주문에 담기',
-      tier_table: '월 구매수량 5단계 공급가',
-      tier_table_sub: '공급가 (Ks)',
-      tier_qty: '월 수량',
-      current: '현재',
-      tier_rule: '등급은 품목별이 아니라 그 달 전체 구매수량 합계로 정해집니다.',
-      qty: '수량',
-      order: '주문',
-      order_sheet: '주문서 작성',
-      cart_title: '주문서',
-      cart_sub: '주문 확정에 필요한 정보를 입력하세요',
-      clear: '비우기',
-      empty_cart: '주문이 비어 있습니다. 상품의 + 를 눌러 담아 주세요.',
-      buyer: '주문자 이름',
-      buyer_ph: '이름',
-      shop: '매장 / 채널명',
-      shop_ph: '예) Glow Yangon TikTok',
-      phone: '전화 / Viber',
+      hero_title: '韩国美妆批发价 · 仰光',
+      hero_sub: 'TikTok 卖家与门店的供货价，共 33 款',
+      stat_items: '款商品',
+      stat_tiers: '阶梯价',
+      stat_currency: '仅缅元',
+      search: '搜索商品（名称 / 品牌）',
+      all: '全部',
+      supply: '批发价',
+      retail: '零售价',
+      detail_title: '商品详情',
+      save_more: '批量越大越便宜',
+      items_short: '款',
+      added: '已加入订单',
+      add: '加入订单',
+      tier_table: '月度采购量 5 级批发价',
+      tier_table_sub: '批发价（Ks）',
+      tier_qty: '月采购量',
+      current: '当前',
+      tier_rule: '等级按当月全部商品合计采购量计算，不是按单个商品计算。',
+      qty: '数量',
+      order: '订单',
+      order_sheet: '填写订单',
+      cart_title: '订单',
+      cart_sub: '请填写信息以确认订单',
+      clear: '清空',
+      empty_cart: '订单还是空的，点击商品上的 + 加入。',
+      buyer: '下单人姓名',
+      buyer_ph: '全名',
+      shop: '门店 / 渠道',
+      shop_ph: '例：Glow Yangon TikTok',
+      phone: '电话 / Viber',
       phone_ph: '09 xxx xxx xxx',
-      township: '양곤 타운십',
-      township_ph: '예) Hlaing, Sanchaung',
-      notes: '메모',
-      notes_ph: '배송 시점, 결제 조건 등',
-      subtotal: 'T1 기준 합계',
-      tier_line: '등급 할인',
-      total: '총액',
-      copy: '주문서 복사',
-      email: '이메일로 보내기',
-      copied: '주문서를 복사했습니다 — Viber에 붙여넣으세요',
-      copy_fail: '복사할 수 없습니다 — 아래 텍스트를 직접 선택하세요',
-      need_name: '주문자 이름을 입력하세요',
-      need_phone: '전화 / Viber 번호를 입력하세요',
-      next_tier: '{n}개 더 담으면 {t}',
-      top_tier: '최고 등급(T5)입니다',
-      qty_total: '총 수량',
-      piece: '개',
-      search_empty: '검색 결과가 없습니다',
-      search_empty_sub: '다른 검색어나 카테고리를 선택하세요',
+      township: '镇区（仰光）',
+      township_ph: '例：Hlaing、Sanchaung',
+      notes: '备注',
+      notes_ph: '送货时间、付款条件等',
+      subtotal: '商品小计',
+      tier_line: '等级优惠',
+      total: '总计',
+      copy: '复制订单',
+      email: '发送邮件',
+      copied: '已复制订单 — 粘贴到 Viber 即可',
+      copy_fail: '无法复制 — 请手动选取下方文字',
+      need_name: '请填写下单人姓名',
+      need_phone: '请填写电话 / Viber 号码',
+      next_tier: '再买 {n} 件即达 {t}',
+      top_tier: '已是最高等级（T5）',
+      qty_total: '总数量',
+      piece: '件',
+      search_empty: '没有找到商品',
+      search_empty_sub: '换个关键词或选择其他分类',
       sourcing_kicker: 'BEYOND THIS CATALOG',
-      sourcing_title: '목록에 없는 한국 제품이 필요하신가요?',
-      sourcing_body: '제품명·사진·링크를 보내주시면 별도 견적(custom quote)으로 회신드립니다.',
-      sourcing_cta: '견적 요청',
+      sourcing_title: '需要目录里没有的韩国产品？',
+      sourcing_body: '发来产品名称、照片或链接 — 我们回复专属报价。',
+      sourcing_cta: '索取报价',
+      quote_subject: 'SeoulPick 报价请求',
       tiktok_dm: 'TikTok DM',
-      email_me: '이메일',
-      foot_note: '가격은 2026년 11월 14일 기준입니다. 배송·결제 조건은 파트너별로 협의합니다.',
-      in_cart: '담김',
-      clear_confirm: '주문을 모두 비울까요?',
-      summary_title: 'SEOULPICK · 주문서',
-      lbl_name: '이름',
-      lbl_shop: '매장/채널',
-      lbl_phone: '전화/Viber',
-      lbl_township: '타운십',
-      lbl_note: '메모',
-      lbl_total_qty: '총수량',
-      lbl_tier: '등급',
-      lbl_total: '총 금액',
-      mail_subject: 'SeoulPick 주문',
-      sect_beauty: '뷰티 · K-Beauty',
-      sect_inner: '이너뷰티 · 건강기능식품'
+      email_me: '邮箱',
+      foot_note: '价格截至 2026 年 11 月 14 日。配送与付款条件按合作伙伴分别商定。',
+      in_cart: '已加入',
+      clear_confirm: '要清空全部订单吗？',
+      summary_title: 'SEOULPICK · 订单',
+      lbl_name: '姓名',
+      lbl_shop: '门店/渠道',
+      lbl_phone: '电话/Viber',
+      lbl_township: '镇区',
+      lbl_note: '备注',
+      lbl_total_qty: '总数量',
+      lbl_tier: '等级',
+      lbl_total: '总计金额',
+      mail_subject: 'SeoulPick 订单',
+      sect_beauty: '美妆 · K-Beauty',
+      sect_inner: '内服美容 · 健康食品'
     }
   };
 
@@ -260,6 +263,8 @@
   function $$(s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
   function t(k) { return (I18N[state.lang] && I18N[state.lang][k]) || I18N.en[k] || k; }
   function nf(n) { return Number(n).toLocaleString('en-US'); }
+  // 브랜드 표기: 중국어 화면에서는 병기된 중국어 브랜드를 우선 사용
+  function brandOf(p) { return (state.lang === 'zh' && p.brandZh) ? p.brandZh : p.brand; }
   function fmt(n) { return nf(Math.round(n)); }
   function esc(s) {
     return String(s).replace(/[&<>"']/g, function (c) {
@@ -324,8 +329,10 @@
     if (state.cat !== 'all' && p.cat !== state.cat) return false;
     if (!state.q) return true;
     var q = state.q.toLowerCase();
-    return (p.brand + ' ' + p.name.mm + ' ' + p.name.en + ' ' + p.name.ko + ' ' +
-      p.sp.mm + ' ' + p.sp.en + ' ' + p.spec.en + ' ' + p.spec.ko + ' #' + p.no).toLowerCase().indexOf(q) >= 0;
+    return (p.brand + ' ' + (p.brandZh || '') + ' ' +
+      p.name.mm + ' ' + p.name.en + ' ' + p.name.zh + ' ' +
+      p.sp.mm + ' ' + p.sp.en + ' ' + p.sp.zh + ' ' +
+      p.spec.en + ' ' + p.spec.zh + ' #' + p.no).toLowerCase().indexOf(q) >= 0;
   }
 
   function card(p, tier) {
@@ -339,7 +346,7 @@
       '<button class="card-main" data-open="' + p.no + '" aria-label="' + esc(p.name[state.lang]) + '">' +
         '<div class="thumb"><img src="' + p.img + '" alt="' + esc(p.name.en) + '" loading="lazy" width="760" height="760"></div>' +
         '<div class="cbody">' +
-          '<div class="cbrand">' + esc(p.brand) + '</div>' +
+          '<div class="cbrand">' + esc(brandOf(p)) + '</div>' +
           '<h3 class="cname">' + esc(p.name[state.lang]) + '</h3>' +
           '<div class="cspec">' + esc(p.spec[state.lang]) + '</div>' +
           '<div class="cprices">' +
@@ -401,13 +408,13 @@
     }).join('');
 
     $('#detailTitle').textContent = t('detail_title');
-    $('#detailSub').textContent = p.brand + ' · ' + t('supply') + ' ' + tier;
+    $('#detailSub').textContent = brandOf(p) + ' · ' + t('supply') + ' ' + tier;
 
     $('#detailBody').innerHTML =
       '<div class="d-top">' +
         '<div class="d-hero"><img src="' + p.img + '" alt="' + esc(p.name.en) + '"></div>' +
         '<div class="d-info">' +
-          '<div class="d-brand">' + esc(p.brand) + '</div>' +
+          '<div class="d-brand">' + esc(brandOf(p)) + '</div>' +
           '<h2 class="d-name">' + esc(p.name[state.lang]) + '</h2>' +
           '<div class="d-spec">' + esc(p.spec[state.lang]) + '</div>' +
         '</div>' +
@@ -492,7 +499,7 @@
       return '<div class="ci">' +
         '<div class="ci-img"><img src="' + l.p.img + '" alt=""></div>' +
         '<div class="ci-mid">' +
-          '<div class="ci-brand">' + esc(l.p.brand) + '</div>' +
+          '<div class="ci-brand">' + esc(brandOf(l.p)) + '</div>' +
           '<div class="ci-name">' + esc(l.p.name[state.lang]) + '</div>' +
           '<div class="ci-unit">' + fmt(l.unit) + ' Ks × ' + l.q + (d ? ' · −' + d + '%' : '') + '</div>' +
         '</div>' +
@@ -574,7 +581,7 @@
     if (b.town) L.push(t('lbl_township') + ': ' + b.town);
     L.push('');
     T.lines.forEach(function (l, i) {
-      L.push((i + 1) + ') ' + l.p.brand + ' — ' + l.p.name[state.lang]);
+      L.push((i + 1) + ') ' + brandOf(l.p) + ' — ' + l.p.name[state.lang]);
       L.push('    ' + l.q + ' × ' + fmt(l.unit) + ' = ' + fmt(l.line) + ' Ks');
     });
     L.push('');
@@ -605,7 +612,7 @@
 
   function mailHref() {
     var subj = t('mail_subject') + ' — ' + ((state.buyer && state.buyer.buyer) || '') +
-      ' · ' + cartQty() + ' pcs';
+      ' · ' + cartQty() + ' ' + t('piece');
     return 'mailto:' + D.contact.email + '?subject=' + encodeURIComponent(subj) +
       '&body=' + encodeURIComponent(orderText());
   }
@@ -649,7 +656,7 @@
   function applyLang(l) {
     state.lang = l;
     store(LS_LANG, l);
-    document.documentElement.lang = l === 'mm' ? 'mm' : l;
+    document.documentElement.lang = l === 'zh' ? 'zh-Hans' : l;
     $$('.lang button').forEach(function (b) { b.classList.toggle('on', b.dataset.lang === l); });
     $('#heroTitle').textContent = t('hero_title');
     $('#heroSub').textContent = t('hero_sub');
@@ -667,6 +674,8 @@
     $('#sourceTitle').textContent = t('sourcing_title');
     $('#sourceBody').textContent = t('sourcing_body');
     $('#sourceCta').textContent = t('sourcing_cta');
+    $('#sourceCta').setAttribute('href',
+      'mailto:' + D.contact.email + '?subject=' + encodeURIComponent(t('quote_subject')));
     $('#footNote').textContent = t('foot_note');
     renderCats(); renderGrid(); renderCartBar(); renderCart();
     if (state.detailNo) { var no = state.detailNo; openDetail(no); }
