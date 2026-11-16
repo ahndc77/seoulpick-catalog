@@ -1247,5 +1247,21 @@ window.SP_DATA = {
   "tiktok": "@seoulpick.mm",
   "email": "ahndc77@gmail.com"
  },
- "priceDate": "2026-11-14"
+ "priceDate": "2026-11-14",
+ "starterKit": {
+  "no": [
+   6,
+   2,
+   11,
+   38,
+   3,
+   31,
+   4,
+   34,
+   17,
+   25
+  ],
+  "each": 1,
+  "bulkEach": 5
+ }
 };

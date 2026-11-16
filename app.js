@@ -85,7 +85,33 @@
       lbl_total: 'စုစုပေါင်း ကျသင့်ငွေ',
       mail_subject: 'SeoulPick အမှာစာ',
       sect_beauty: 'အလှကုန် · K-Beauty',
-      sect_inner: 'ကျန်းမာရေး ဖြည့်စွက်စာ'
+      sect_inner: 'ကျန်းမာရေး ဖြည့်စွက်စာ',
+      kit_kicker: 'STARTER KIT',
+      kit_title: 'ပထမဆုံး အမှာစာအတွက် ၁၀ မျိုး စတာတာ ကစ်',
+      kit_sub: 'အမျိုးအစား ၅ ခုမှ ရွေးချယ်ထားသော ၁၀ မျိုး · T1 {n} Ks',
+      kit_profit_line: 'ခန့်မှန်း အမြတ် +{p} Ks',
+      kit_cta: 'ကြည့်ရန်',
+      kit_sheet_title: 'ပထမဆုံး အမှာစာ ၁၀ မျိုး',
+      kit_sheet_sub: 'အမျိုးအစား ၅ ခုမှ ၂ မျိုးစီ — စုစုပေါင်း ၁၀ မျိုး',
+      kit_supply_total: 'T1 ပေးသွင်းစျေး စုစုပေါင်း',
+      kit_retail_total: 'လက်လီစျေး စုစုပေါင်း',
+      kit_profit: 'ခန့်မှန်း အမြတ်',
+      kit_add_all: '၁၀ မျိုး တစ်မျိုးလျှင် ၁ ခု ထည့်ရန်',
+      kit_add_bulk: 'တစ်မျိုးလျှင် ၅ ခု (၅၀ ခု) · T2 စျေး',
+      kit_note: 'တစ်မျိုးလျှင် ၁ ခု ထည့်ပါသည်။ စုစုပေါင်း ၅၀ ခု ပြည့်လျှင် T2 ပေးသွင်းစျေး ဖြစ်ပါသည်။',
+      kit_added: '၁၀ မျိုး အမှာစာထဲ ထည့်ပြီးပါပြီ',
+      calc_title: 'အရောင်းဆိုင် အမြတ် တွက်စက်',
+      calc_sub: 'ခန့်မှန်း ရောင်းစျေးထည့်ပြီး အမြတ်ကို ကြည့်ပါ',
+      calc_tier: 'ပေးသွင်း အဆင့်',
+      calc_sell: 'ခန့်မှန်း ရောင်းစျေး (Ks)',
+      calc_supply: 'ပေးသွင်းစျေး',
+      calc_margin_unit: 'တစ်ခုလျှင် အမြတ်',
+      calc_margin_rate: 'အမြတ် ရာခိုင်နှုန်း',
+      calc_m30: 'တစ်လ ၃၀ ခု ရောင်းလျှင်',
+      calc_m50: 'တစ်လ ၅၀ ခု ရောင်းလျှင်',
+      calc_reset: 'လက်လီစျေးသို့ ပြန်ထားရန်',
+      calc_note: 'အမြတ် = ရောင်းစျေး − ပေးသွင်းစျေး (ပို့ဆောင်ခနှင့် ကော်မရှင် မပါဝင်ပါ)',
+      calc_neg: 'ပေးသွင်းစျေးထက် နည်းနေပါသည်'
     },
     en: {
       hero_eyebrow: 'K-BEAUTY · INNER BEAUTY · 2026',
@@ -161,7 +187,33 @@
       lbl_total: 'Total amount',
       mail_subject: 'SeoulPick order',
       sect_beauty: 'Beauty · K-Beauty',
-      sect_inner: 'Inner Beauty · Supplements'
+      sect_inner: 'Inner Beauty · Supplements',
+      kit_kicker: 'STARTER KIT',
+      kit_title: '10-SKU starter kit for your first order',
+      kit_sub: 'Ten picks from five categories · T1 total {n} Ks',
+      kit_profit_line: 'Est. profit +{p} Ks',
+      kit_cta: 'View',
+      kit_sheet_title: 'First-order 10-SKU starter kit',
+      kit_sheet_sub: 'Two picks from each of the five categories — 10 SKUs',
+      kit_supply_total: 'T1 supply total',
+      kit_retail_total: 'Retail total',
+      kit_profit: 'Estimated profit',
+      kit_add_all: 'Add all 10 — one of each',
+      kit_add_bulk: 'Add 5 of each (50 pcs) at T2',
+      kit_note: 'Adds one of each. An order of 50 pcs or more moves to T2 supply pricing.',
+      kit_added: '10 items added to your order',
+      calc_title: 'Seller margin calculator',
+      calc_sub: 'Enter your selling price to see the margin',
+      calc_tier: 'Supply tier',
+      calc_sell: 'Expected selling price (Ks)',
+      calc_supply: 'Supply price',
+      calc_margin_unit: 'Margin per pc',
+      calc_margin_rate: 'Margin rate',
+      calc_m30: '30 pcs / month',
+      calc_m50: '50 pcs / month',
+      calc_reset: 'Reset to retail',
+      calc_note: 'Margin = selling price − supply price (delivery and fees excluded)',
+      calc_neg: 'Below supply price'
     },
     zh: {
       hero_eyebrow: 'K-BEAUTY · INNER BEAUTY · 2026',
@@ -237,7 +289,33 @@
       lbl_total: '总计金额',
       mail_subject: 'SeoulPick 订单',
       sect_beauty: '美妆 · K-Beauty',
-      sect_inner: '内服美容 · 健康食品'
+      sect_inner: '内服美容 · 健康食品',
+      kit_kicker: 'STARTER KIT',
+      kit_title: '首次进货 10 款套装',
+      kit_sub: '5 大分类精选 10 款 · T1 合计 {n} Ks',
+      kit_profit_line: '预计毛利 +{p} Ks',
+      kit_cta: '查看',
+      kit_sheet_title: '首次进货 10 款套装',
+      kit_sheet_sub: '5 大分类各 2 款，共 10 款',
+      kit_supply_total: 'T1 批发价合计',
+      kit_retail_total: '零售价合计',
+      kit_profit: '预计毛利',
+      kit_add_all: '10 款各 1 件，加入订单',
+      kit_add_bulk: '每款 5 件（共 50 件）· T2 价',
+      kit_note: '每款加入 1 件；满 50 件按 T2 批发价计算。',
+      kit_added: '10 款已加入订单',
+      calc_title: '卖家毛利计算器',
+      calc_sub: '输入预计售价，立即看到毛利',
+      calc_tier: '批发等级',
+      calc_sell: '预计售价（Ks）',
+      calc_supply: '批发价',
+      calc_margin_unit: '每件净毛利',
+      calc_margin_rate: '毛利率',
+      calc_m30: '月销 30 件',
+      calc_m50: '月销 50 件',
+      calc_reset: '恢复零售价',
+      calc_note: '毛利 = 售价 − 批发价（不含运费与平台费）',
+      calc_neg: '低于批发价'
     }
   };
 
@@ -255,7 +333,10 @@
     cart: {},     // no -> qty
     buyer: {},
     detailNo: null,
-    sheet: null
+    sheet: null,
+    calcTier: null,   // supply tier being simulated in the margin calculator
+    calcSell: null,   // seller's expected selling price (Ks)
+    calcManual: false // true once the seller picked a tier by hand
   };
 
   /* ---------------------------------------------------------- utils */
@@ -312,6 +393,99 @@
     var total = 0, base = 0, qty = 0;
     lines.forEach(function (l) { total += l.line; base += l.base; qty += l.q; });
     return { lines: lines, tier: tier, total: total, base: base, saving: base - total, qty: qty };
+  }
+
+  /* ---------------------------------------------------------- starter kit */
+  var KIT = (D.starterKit && D.starterKit.no) || [];
+  var KIT_EACH = (D.starterKit && D.starterKit.each) || 1;
+  var KIT_BULK = (D.starterKit && D.starterKit.bulkEach) || 5;
+
+  function kitItems() {
+    return KIT.map(function (no) { return BY_NO[no]; }).filter(Boolean);
+  }
+  function kitTotals(per) {
+    var items = kitItems(), s1 = 0, retail = 0, t2 = 0;
+    items.forEach(function (p) {
+      s1 += p.s1 * per;
+      retail += p.R * per;
+      t2 += p.tiers.T2 * per;
+    });
+    var profit = retail - s1;
+    return {
+      items: items, per: per, qty: items.length * per,
+      s1: s1, retail: retail, profit: profit, t2: t2,
+      rate: retail ? profit / retail * 100 : 0
+    };
+  }
+
+  function renderKit() {
+    var host = $('#kitHost');
+    if (!host) return;
+    var T = kitTotals(KIT_EACH);
+    if (!T.items.length) { host.innerHTML = ''; return; }
+    host.innerHTML =
+      '<button class="kit" id="kitCard" type="button">' +
+        '<span class="kit-ico" aria-hidden="true">🎁</span>' +
+        '<span class="kit-txt">' +
+          '<span class="kit-kick">' + esc(t('kit_kicker')) + '</span>' +
+          '<b class="kit-title">' + esc(t('kit_title')) + '</b>' +
+          '<span class="kit-sub">' + esc(t('kit_sub').replace('{n}', fmt(T.s1))) + '</span>' +
+          '<span class="kit-gain">' + esc(t('kit_profit_line').replace('{p}', fmt(T.profit))) + '</span>' +
+        '</span>' +
+        '<span class="kit-go" aria-hidden="true">›</span>' +
+      '</button>';
+    $('#kitCard').onclick = openKit;
+  }
+
+  function openKit() {
+    var T = kitTotals(KIT_EACH);
+    var B = kitTotals(KIT_BULK);
+    $('#kitTitle').textContent = t('kit_sheet_title');
+    $('#kitSub').textContent = t('kit_sheet_sub');
+
+    var rows = T.items.map(function (p) {
+      return '<div class="ki">' +
+        '<div class="ki-img"><img src="' + p.img + '" alt="" loading="lazy"></div>' +
+        '<div class="ki-mid">' +
+          '<div class="ki-brand">' + esc(brandOf(p)) + '</div>' +
+          '<div class="ki-name">' + esc(p.name[state.lang]) + '</div>' +
+          '<div class="ki-line">' + t('supply') + ' ' + fmt(p.s1) + ' · ' + t('retail') + ' ' + fmt(p.R) + ' Ks</div>' +
+        '</div>' +
+        '<div class="ki-right"><b>+' + fmt(p.R - p.s1) + '</b><span>Ks</span></div>' +
+      '</div>';
+    }).join('');
+
+    $('#kitBody').innerHTML =
+      '<div class="kit-sum">' +
+        '<div class="ks-row"><span>' + t('kit_supply_total') + '</span><b>' + fmt(T.s1) + ' Ks</b></div>' +
+        '<div class="ks-row"><span>' + t('kit_retail_total') + '</span><b>' + fmt(T.retail) + ' Ks</b></div>' +
+        '<div class="ks-row hi"><span>' + t('kit_profit') + '</span>' +
+          '<b>' + fmt(T.profit) + ' Ks<em>' + T.rate.toFixed(1) + '%</em></b></div>' +
+      '</div>' +
+      '<div class="cart-sect" style="margin-top:16px"><h3>' + T.items.length + ' ' + t('items_short') + '</h3>' + rows + '</div>' +
+      '<p class="kit-note">' + esc(t('kit_note')) + '</p>';
+
+    $('#kitFoot').innerHTML =
+      '<div class="kit-btns">' +
+        '<button class="btn btn-coral" id="kitAdd">' + esc(t('kit_add_all')) +
+          ' · ' + fmt(T.s1) + ' Ks</button>' +
+        '<button class="btn btn-ghost" id="kitAddBulk">' + esc(t('kit_add_bulk')) +
+          ' · ' + fmt(B.t2) + ' Ks</button>' +
+      '</div>';
+
+    $('#kitAdd').onclick = function () { addKit(KIT_EACH); };
+    $('#kitAddBulk').onclick = function () { addKit(KIT_BULK); };
+
+    openSheet('kit');
+  }
+
+  function addKit(per) {
+    var items = kitItems();
+    items.forEach(function (p) { state.cart[p.no] = (state.cart[p.no] || 0) + per; });
+    persist();
+    closeSheets();
+    renderGrid(); renderCartBar();
+    toast(t('kit_added').replace('{n}', items.length));
   }
 
   /* ---------------------------------------------------------- render: chips */
@@ -389,12 +563,117 @@
     document.body.style.paddingBottom = '';
   }
 
+  /* ---------------------------------------------------------- margin calculator */
+  function calcSell() {
+    var el = $('#calcPrice');
+    if (!el) return 0;
+    var v = parseInt(String(el.value).replace(/[^0-9]/g, ''), 10);
+    return isFinite(v) && v > 0 ? v : 0;
+  }
+
+  function calcBlock(p, tier) {
+    var chips = TIER_ORDER.map(function (tr) {
+      return '<button type="button" class="ctier' + (tr === tier ? ' on' : '') + '" data-ctier="' + tr + '">' +
+        '<b>' + tr + '</b><span>' + fmt(priceOf(p, tr)) + '</span></button>';
+    }).join('');
+    return '<div class="calc" id="calcBox">' +
+      '<div class="calc-h"><b>' + t('calc_title') + '</b><span>' + t('calc_sub') + '</span></div>' +
+      '<div class="calc-lab">' + t('calc_tier') + '</div>' +
+      '<div class="ctiers">' + chips + '</div>' +
+      '<div class="calc-lab">' + t('calc_sell') + '</div>' +
+      '<div class="calc-in">' +
+        '<button type="button" class="cstep" data-cp="-10">−10%</button>' +
+        '<input id="calcPrice" type="text" inputmode="numeric" autocomplete="off" value="' +
+          fmt(state.calcSell == null ? p.R : state.calcSell) + '">' +
+        '<button type="button" class="cstep" data-cp="10">+10%</button>' +
+      '</div>' +
+      '<button type="button" class="calc-reset" data-cp="reset">' + t('calc_reset') +
+        ' · ' + fmt(p.R) + ' Ks</button>' +
+      '<div class="calc-res">' +
+        '<div class="cr"><span>' + t('calc_margin_unit') + '</span><b id="cmMargin">—</b></div>' +
+        '<div class="cr"><span>' + t('calc_margin_rate') + '</span><b id="cmRate">—</b></div>' +
+      '</div>' +
+      '<div class="calc-row2">' +
+        '<div class="cw"><span>' + t('calc_m30') + '</span><b id="cmM30">—</b></div>' +
+        '<div class="cw"><span>' + t('calc_m50') + '</span><b id="cmM50">—</b></div>' +
+      '</div>' +
+      '<div class="calc-foot"><span id="cmSupply">—</span>' +
+        '<span class="calc-warn" id="cmWarn"></span></div>' +
+      '<p class="calc-note">' + t('calc_note') + '</p>' +
+    '</div>';
+  }
+
+  function refreshTierChips() {
+    $$('#detailBody [data-ctier]').forEach(function (b) {
+      b.classList.toggle('on', b.dataset.ctier === state.calcTier);
+    });
+  }
+
+  function money(n, el) {
+    if (!el) return;
+    var neg = n < 0;
+    el.innerHTML = (neg ? '−' : '') + fmt(Math.abs(n)) + '<small>Ks</small>';
+    el.classList.toggle('neg', neg);
+  }
+
+  function updateCalc() {
+    var no = state.detailNo;
+    if (!no || !$('#calcBox')) return;
+    var p = BY_NO[no];
+    if (!p) return;
+    var tier = state.calcTier || curTier();
+    var sup = priceOf(p, tier);
+    var el = $('#calcPrice');
+    var sell = el ? calcSell() : 0;
+    var margin = sell - sup;
+    var rate = sell > 0 ? margin / sell * 100 : 0;
+
+    money(margin, $('#cmMargin'));
+    money(margin * 30, $('#cmM30'));
+    money(margin * 50, $('#cmM50'));
+
+    var r = $('#cmRate');
+    if (r) {
+      var rn = rate < 0;
+      r.innerHTML = (rn ? '−' : '') + Math.abs(rate).toFixed(1) + '<small>%</small>';
+      r.classList.toggle('neg', rn);
+    }
+    var s = $('#cmSupply');
+    if (s) s.textContent = t('calc_supply') + ' · ' + tier + ' ' + fmt(sup) + ' Ks';
+    var w = $('#cmWarn');
+    if (w) w.textContent = sell > 0 && margin < 0 ? t('calc_neg') : '';
+  }
+
+  function nudgeCalc(mode) {
+    var el = $('#calcPrice');
+    var p = state.detailNo ? BY_NO[state.detailNo] : null;
+    if (!el || !p) return;
+    var cur = calcSell();
+    var v;
+    if (mode === 'reset') {
+      v = p.R;
+    } else {
+      var base = cur || p.R;
+      v = Math.round(base * (1 + parseInt(mode, 10) / 100) / 100) * 100;
+    }
+    if (!isFinite(v) || v < 0) v = 0;
+    el.value = fmt(v);
+    state.calcSell = v;
+    updateCalc();
+  }
+
   /* ---------------------------------------------------------- detail sheet */
   function openDetail(no) {
     var p = BY_NO[no];
     if (!p) return;
+    var isNew = state.detailNo !== no;
     state.detailNo = no;
     var tier = curTier();
+    if (isNew) {
+      state.calcTier = tier;
+      state.calcSell = p.R;
+      state.calcManual = false;
+    }
     var q = state.cart[no] || 0;
     var rows = TIER_ORDER.map(function (tr) {
       var pr = priceOf(p, tr), d = discOf(p, tr);
@@ -431,6 +710,7 @@
         rows +
       '</div>' +
       '<p class="tier-note">' + t('tier_rule') + '</p>' +
+      calcBlock(p, state.calcTier || tier) +
       '<div class="qtyline">' +
         '<span class="lbl">' + t('qty') + '</span>' +
         '<div class="big-stepper">' +
@@ -447,6 +727,22 @@
 
     $('#dMinus').onclick = function () { setQty(no, (state.cart[no] || 0) - 1, true); };
     $('#dPlus').onclick = function () { setQty(no, (state.cart[no] || 0) + 1, true); };
+    var cp = $('#calcPrice');
+    if (cp) {
+      cp.oninput = function () {
+        var raw = cp.value.replace(/[^0-9]/g, '').slice(0, 9);
+        var n = raw ? parseInt(raw, 10) : 0;
+        cp.value = raw ? fmt(n) : '';
+        state.calcSell = n;
+        updateCalc();
+      };
+      cp.onblur = function () {
+        if (!calcSell()) { state.calcSell = p.R; }
+        cp.value = fmt(calcSell() || p.R);
+        updateCalc();
+      };
+    }
+    updateCalc();
     $('#dQty').oninput = function () {
       var v = Math.max(0, Math.min(9999, parseInt(this.value || '0', 10) || 0));
       state.cart[no] = v; if (!v) delete state.cart[no];
@@ -464,6 +760,8 @@
   function syncDetail() {
     var no = state.detailNo; if (!no) return;
     var p = BY_NO[no], q = state.cart[no] || 0, tier = curTier();
+    if (!state.calcManual) { state.calcTier = tier; refreshTierChips(); }
+    updateCalc();
     var mi = $('#dMinus'); if (mi) mi.disabled = !q;
     var iq = $('#dQty'); if (iq && document.activeElement !== iq) iq.value = q;
     var pr = $('#dPrice'); if (pr) pr.innerHTML = fmt(priceOf(p, tier)) + '<small>Ks</small>';
@@ -677,7 +975,10 @@
     $('#sourceCta').setAttribute('href',
       'mailto:' + D.contact.email + '?subject=' + encodeURIComponent(t('quote_subject')));
     $('#footNote').textContent = t('foot_note');
-    renderCats(); renderGrid(); renderCartBar(); renderCart();
+    $('#emptyTitle').textContent = t('search_empty');
+    $('#emptySub').textContent = t('search_empty_sub');
+    renderCats(); renderGrid(); renderCartBar(); renderCart(); renderKit();
+    if (state.sheet === 'kit') openKit();
     if (state.detailNo) { var no = state.detailNo; openDetail(no); }
   }
 
@@ -707,6 +1008,16 @@
     document.addEventListener('click', function (e) {
       var open = e.target.closest('[data-open]');
       if (open) { openDetail(+open.dataset.open); return; }
+      var ct = e.target.closest('[data-ctier]');
+      if (ct) {
+        state.calcTier = ct.dataset.ctier;
+        state.calcManual = true;
+        refreshTierChips();
+        updateCalc();
+        return;
+      }
+      var cp = e.target.closest('[data-cp]');
+      if (cp) { nudgeCalc(cp.dataset.cp); return; }
       var step = e.target.closest('[data-step]');
       if (step) {
         e.preventDefault(); e.stopPropagation();
@@ -735,6 +1046,7 @@
       if (e.key === 'Escape' && state.sheet) closeSheets();
     });
 
+    renderKit();
     renderCartBar();
   }
 

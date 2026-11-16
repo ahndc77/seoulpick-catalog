@@ -47,6 +47,8 @@
     <div class="cats" id="cats"></div>
   </div>
 
+  <div id="kitHost"></div>
+
   <main>
     <div style="display:flex;justify-content:space-between;align-items:baseline;padding:2px 0 9px">
       <span id="resultCount" style="font-size:11px;color:var(--faint);font-weight:600;letter-spacing:.04em"></span>
@@ -54,8 +56,8 @@
     </div>
     <div class="grid" id="grid"></div>
     <div class="empty" id="empty">
-      <b>ရှာမတွေ့ပါ</b>
-      <span>အခြား စကားလုံး သို့မဟုတ် အမျိုးအစား ရွေးပါ</span>
+      <b id="emptyTitle">ရှာမတွေ့ပါ</b>
+      <span id="emptySub">အခြား စကားလုံး သို့မဟုတ် အမျိုးအစား ရွေးပါ</span>
     </div>
 
     <section class="sourcing">
@@ -112,6 +114,17 @@
   </div>
   <div class="sheet-body" id="cartBody"></div>
   <div class="sheet-foot" id="cartFoot"></div>
+</div>
+
+<!-- starter kit -->
+<div class="sheet" id="kitSheet" role="dialog" aria-modal="true">
+  <div class="grab"><i></i></div>
+  <div class="sheet-head">
+    <div><h2 id="kitTitle">—</h2><div class="sub" id="kitSub"></div></div>
+    <button class="iconbtn" data-close aria-label="close">✕</button>
+  </div>
+  <div class="sheet-body" id="kitBody"></div>
+  <div class="sheet-foot" id="kitFoot"></div>
 </div>
 
 <div class="toast" id="toast"></div>
