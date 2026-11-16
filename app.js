@@ -243,7 +243,7 @@
 
   var TIER_ORDER = ['T1', 'T2', 'T3', 'T4', 'T5'];
   var TIER_MIN = { T1: 1, T2: 50, T3: 150, T4: 300, T5: 500 };
-  var DISC = { T1: 0 };           // 표시용, 상품별 실제 할인은 가격에서 계산
+  var DISC = { T1: 0 };           // display only; per-item discount is computed from the ladder
   var LS_CART = 'sp_cart_v1';
   var LS_BUYER = 'sp_buyer_v1';
   var LS_LANG = 'sp_lang_v1';
@@ -263,7 +263,7 @@
   function $$(s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
   function t(k) { return (I18N[state.lang] && I18N[state.lang][k]) || I18N.en[k] || k; }
   function nf(n) { return Number(n).toLocaleString('en-US'); }
-  // 브랜드 표기: 중국어 화면에서는 병기된 중국어 브랜드를 우선 사용
+  // brand label: on the Chinese screen prefer the glossed Chinese brand
   function brandOf(p) { return (state.lang === 'zh' && p.brandZh) ? p.brandZh : p.brand; }
   function fmt(n) { return nf(Math.round(n)); }
   function esc(s) {
@@ -369,7 +369,7 @@
   function renderGrid() {
     var tier = curTier();
     var list = P.filter(matches);
-    // 화장품 먼저, 이너뷰티 다음 (원본 카탈로그 순서와 동일)
+    // beauty first, inner beauty next (same order as the source catalog)
     list.sort(function (a, b) { return a.no - b.no; });
     $('#grid').innerHTML = list.map(function (p) { return card(p, tier); }).join('');
     $('#empty').classList.toggle('on', list.length === 0);
