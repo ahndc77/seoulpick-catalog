@@ -8,7 +8,41 @@
 <meta name="description" content="SeoulPick — K-Beauty & inner beauty wholesale catalogue for Yangon partners. 5-tier supply pricing in Kyat.">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="locked">
+
+<!-- access-code gate -->
+<div class="gate" id="gate">
+  <div class="gate-in">
+    <div class="gate-brand">
+      <span class="mark">S</span>
+      <span class="wordmark"><b>SEOULPICK</b><small>YANGON · WHOLESALE</small></span>
+    </div>
+    <div class="lang gate-lang" id="gateLang" role="group" aria-label="Language">
+      <button data-lang="mm" class="on">MM</button>
+      <button data-lang="en">EN</button>
+      <button data-lang="zh">中文</button>
+    </div>
+    <div class="gate-head">
+      <span class="gate-lock" aria-hidden="true">🔒</span>
+      <h1 id="gTitle">—</h1>
+      <p id="gSub"></p>
+    </div>
+    <form id="gForm" novalidate>
+      <label class="gate-field" id="gField">
+        <span id="gLabel">Access code</span>
+        <input id="gCode" type="text" inputmode="text" autocomplete="off" autocapitalize="characters"
+               autocorrect="off" spellcheck="false" aria-describedby="gErr">
+      </label>
+      <p class="gate-err" id="gErr" role="alert"></p>
+      <label class="gate-remember">
+        <input type="checkbox" id="gRemember" checked>
+        <span id="gRememberTxt"></span>
+      </label>
+      <button class="gate-btn" id="gBtn" type="submit"><span id="gBtnTxt">Unlock</span></button>
+    </form>
+    <p class="gate-foot" id="gFoot"></p>
+  </div>
+</div>
 
 <header class="topbar">
   <div class="topbar-in">
@@ -16,6 +50,10 @@
       <span class="mark">S</span>
       <span class="wordmark"><b>SEOULPICK</b><small>YANGON · WHOLESALE</small></span>
     </div>
+    <button class="who" id="who" type="button" title="Access" hidden>
+      <span class="who-name" id="whoName">—</span>
+      <span class="who-lock" id="whoLock" aria-hidden="true">🔒</span>
+    </button>
     <div class="lang" id="lang" role="group" aria-label="Language">
       <button data-lang="mm" class="on">MM</button>
       <button data-lang="en">EN</button>
@@ -139,6 +177,7 @@
 <div class="toast" id="toast"></div>
 
 <script src="data.js"></script>
+<script src="gate.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

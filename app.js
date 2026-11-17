@@ -4,7 +4,10 @@
 (function () {
   'use strict';
 
-  var D = window.SP_DATA;
+  // 접속코드가 풀린 뒤 gate.js 가 부른다: window.SP_BOOT(data)
+  window.SP_BOOT = function (DATA) {
+
+  var D = DATA;
   var P = D.products;
   var BY_NO = {};
   P.forEach(function (p) { BY_NO[p.no] = p; });
@@ -1044,6 +1047,7 @@
       var el = $('#' + pair[0]); if (!el) return;
       el.oninput = function () {
         state.buyer[pair[1]] = el.value; store(LS_BUYER, state.buyer);
+        if (pair[1] === 'buyer') state.buyer.auto = '';
         if (el.value.trim()) { var f = el.closest('.field'); if (f) f.classList.remove('err'); }
         var m = $('#btnMail'); if (m) m.setAttribute('href', mailHref());
       };
@@ -1106,10 +1110,10 @@
   }
 
   function orderText() {
-    var T = cartTotals(), b = state.buyer || {}, L = [];
+    var T = cartTotals(), b = state.buyer || {}, L = [], S = window.SP_SESSION || null;
     L.push(t('summary_title'));
     L.push('--------------------------------');
-    if (b.buyer) L.push(t('lbl_name') + ': ' + b.buyer);
+    if (b.buyer) L.push(t('lbl_name') + ': ' + b.buyer + (S ? ' (' + S.code + ')' : ''));
     if (b.shop) L.push(t('lbl_shop') + ': ' + b.shop);
     if (b.phone) L.push(t('lbl_phone') + ': ' + b.phone);
     if (b.town) L.push(t('lbl_township') + ': ' + b.town);
@@ -1227,6 +1231,20 @@
     state.cart = store(LS_CART) || {};
     state.buyer = store(LS_BUYER) || {};
 
+    // 접속코드로 들어온 거래처 — 주문서 이름·헤더 배지를 코드 라벨로 맞춘다
+    var S = window.SP_SESSION || null;
+    if (S) {
+      if (S.role !== 'master' && (!state.buyer.buyer || state.buyer.buyer === state.buyer.auto)) {
+        state.buyer.buyer = S.label;
+        state.buyer.auto = S.label;
+      }
+      state.buyer.acc = S.id;
+      store(LS_BUYER, state.buyer);
+      var wn = $('#whoName'); if (wn) wn.textContent = S.label;
+      var who = $('#who');
+      if (who) { who.hidden = false; who.title = S.label + ' · ' + S.code; who.onclick = function () { if (window.SP_GATE) window.SP_GATE.logout(); }; }
+    }
+
     applyLang(state.lang);
 
     $('#cats').onclick = function (e) {
@@ -1288,7 +1306,9 @@
     renderKit();
     renderPoints();
     renderCartBar();
+    renderCart();
   }
 
-  document.addEventListener('DOMContentLoaded', init);
+  init();
+  };
 })();
