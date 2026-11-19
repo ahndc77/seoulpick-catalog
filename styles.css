@@ -177,10 +177,12 @@ html[lang="mm"] .cname{font-size:12px;line-height:1.5;min-height:3em;-webkit-lin
 .cprices{display:flex;align-items:baseline;gap:6px;margin-top:7px;flex-wrap:wrap}
 .cretail{font-size:10.5px;color:var(--faint);text-decoration:line-through;text-decoration-color:rgba(167,148,158,.6)}
 .cur{font-size:10px;font-weight:600;color:var(--muted);margin-left:1px}
-.cfoot{display:flex;align-items:center;justify-content:space-between;gap:6px;padding:7px 10px 10px;margin-top:auto}
+.cfoot{display:flex;align-items:center;justify-content:space-between;gap:4px;padding:7px 8px 10px;margin-top:auto;min-width:0}
+.cfoot .stepper{flex:none}
 .tierpill{
   font-size:9.5px;font-weight:700;letter-spacing:.04em;padding:4px 7px;border-radius:7px;
   background:var(--coral-soft);color:var(--coral-deep);white-space:nowrap;
+  min-width:0;overflow:hidden;text-overflow:ellipsis;flex:0 1 auto;
 }
 .tierpill.up{background:#E9F4EE;color:var(--ok)}
 
@@ -536,76 +538,78 @@ html[lang="mm"] .btn-row .btn{font-size:12px;line-height:1.5}
 html[lang="mm"] .only-mm{display:block}
 @media(prefers-reduced-motion:reduce){*{transition:none !important;animation:none !important}}
 
-/* ============ 하이브리드 포인트 (즉시 할인 + 적립) ============ */
-.cpoint{font-size:9.5px;font-weight:700;color:var(--ok);background:#EAF5EF;border-radius:99px;padding:2px 6px;margin-top:5px;display:inline-block;letter-spacing:.01em;font-variant-numeric:tabular-nums}
+/* ============ 카드 T1–T5 공급가 표 ============ */
+.ctab{margin-top:7px;border:1px solid var(--line-soft);border-radius:8px;overflow:hidden;background:#fff}
+.ctab-h{font-size:8px;font-weight:700;letter-spacing:.02em;color:var(--faint);padding:3px 6px 2px;background:var(--line-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ctr{display:grid;grid-template-columns:15px 1fr auto 28px;gap:3px;align-items:center;padding:3px 6px;font-size:9.5px;font-variant-numeric:tabular-nums;border-top:1px solid var(--line-soft)}
+.ctr .t{font-weight:700;color:var(--muted);font-size:9px;letter-spacing:.02em}
+.ctr .q{font-style:normal;color:var(--faint);font-size:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ctr .p{font-weight:700;color:var(--ink);text-align:right;letter-spacing:-.01em}
+.ctr .d{font-style:normal;font-size:8px;font-weight:700;color:var(--ok);text-align:right;white-space:nowrap}
+.ctr.cur{background:var(--coral-soft)}
+.ctr.cur .t{color:var(--coral-deep)}
+.ctr.cur .p{color:var(--coral-deep)}
+.cretail-line{font-size:8.5px;color:var(--faint);margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cretail-line b{color:var(--muted);font-weight:700}
 
+@media(min-width:620px){
+  .ctr{grid-template-columns:17px 1fr auto 34px;padding:3.5px 7px;font-size:10.5px}
+  .ctr .t{font-size:10px}
+  .ctr .q{font-size:8.8px}
+  .ctr .d{font-size:8.6px}
+  .ctab-h{font-size:8.6px;padding:4px 7px 3px}
+  .cretail-line{font-size:9.5px}
+}
+@media(min-width:900px){
+  .ctr{grid-template-columns:20px 1fr auto 40px;padding:4.5px 9px;font-size:11.5px}
+  .ctr .t{font-size:11px}
+  .ctr .q{font-size:9.6px}
+  .ctr .d{font-size:9.6px}
+  .ctab-h{font-size:9.2px;padding:4.5px 9px 3.5px}
+  .cretail-line{font-size:10px;margin-top:5px}
+}
+
+/* 상세 모달 — 등급표 할인 열 */
 .trow{grid-template-columns:44px 1fr auto 52px}
-.trow .tpts{font-size:10.5px;font-weight:700;color:var(--ok);text-align:right;font-variant-numeric:tabular-nums;line-height:1.25}
-.trow .tpts em{display:block;font-style:normal;font-size:9px;font-weight:600;color:var(--faint)}
-.trow.cur .tpts{color:var(--coral-deep)}
-.trow .tprice em{margin-top:1px}
+.trow .tdisc{font-size:10.5px;font-weight:700;color:var(--ok);text-align:right;font-variant-numeric:tabular-nums}
+.trow.cur .tdisc{color:var(--coral-deep)}
 
-.sum-row.earn b{color:var(--ok)}
-
-.ptsbox{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:11px 12px}
-.ptsbox.on{border-color:#BFE0CF;background:#F7FCF9}
-.ptcheck{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;color:var(--ink);cursor:pointer}
-.ptcheck input{width:17px;height:17px;accent-color:var(--ok);margin:0}
-.ptsrow{display:flex;align-items:center;gap:7px;margin-top:9px}
-.ptsrow input{
-  flex:1;min-width:0;height:38px;padding:0 11px;font-size:13px;font-weight:600;
-  border:1px solid var(--line);border-radius:11px;background:var(--cream);
-  color:var(--ink);outline:0;font-variant-numeric:tabular-nums;
-}
-.ptsrow input:disabled{opacity:.5;background:var(--line-soft)}
-.ptsrow span{font-size:11px;font-weight:600;color:var(--muted)}
-.ptmax{
-  flex:none;height:38px;padding:0 11px;border-radius:11px;border:1px solid var(--line);
-  background:var(--card);color:var(--plum);font-size:11px;font-weight:700;cursor:pointer;
-  font-variant-numeric:tabular-nums;
-}
-.ptmax:disabled{opacity:.45}
-.ptsbox .hint{font-size:10px;color:var(--faint);margin-top:7px;line-height:1.5}
-.ptsbox .hint.err{color:var(--coral-deep);font-weight:600}
-
-.ptsec{margin:28px 16px 0;padding:20px 18px;border-radius:var(--r-lg);background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow-s)}
-.ptsec .kicker{font-size:9px;letter-spacing:.22em;font-weight:700;color:var(--coral-deep);margin-bottom:7px}
-.ptsec h2{font-size:17px;line-height:1.4;font-weight:700;color:var(--ink);max-width:24ch}
-html[lang="mm"] .ptsec h2{font-size:16px;line-height:1.6}
-.ptsec .ptsub{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.6}
-html[lang="mm"] .ptsec .ptsub{line-height:1.8}
-.pttable{margin-top:14px;border:1px solid var(--line);border-radius:13px;overflow:hidden}
-.ptrow{display:grid;grid-template-columns:38px 1fr 66px 50px 46px;gap:4px;align-items:center;padding:7px 10px;border-bottom:1px solid var(--line-soft);font-size:11px;font-variant-numeric:tabular-nums}
-.ptrow:last-child{border-bottom:0}
-.ptrow.hd{background:var(--line-soft);font-size:9px;font-weight:700;color:var(--faint);letter-spacing:.02em;padding:6px 10px}
-.ptrow .tid{font-weight:700;color:var(--muted)}
-.ptrow .qty{color:var(--muted);font-size:10.5px}
-.ptrow .dv{color:var(--ink);font-weight:600;text-align:right}
-.ptrow .pv{color:var(--ok);font-weight:700;text-align:right}
-.ptrow .tt{color:var(--ink);font-weight:700;text-align:right}
-.ptrow.cur{background:var(--coral-soft)}
-.ptrow.cur .tid{color:var(--coral-deep)}
-.ptrules{display:grid;gap:8px;margin-top:14px}
-.ptrule{display:flex;gap:9px;align-items:flex-start}
-.ptrule i{
+/* ============ 즉시할인 등급 안내 ============ */
+.dsec{margin:28px 16px 0;padding:20px 18px;border-radius:var(--r-lg);background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow-s)}
+.dsec .kicker{font-size:9px;letter-spacing:.22em;font-weight:700;color:var(--coral-deep);margin-bottom:7px}
+.dsec h2{font-size:17px;line-height:1.4;font-weight:700;color:var(--ink);max-width:24ch}
+html[lang="mm"] .dsec h2{font-size:16px;line-height:1.6}
+.dsec .dsub{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.6}
+html[lang="mm"] .dsec .dsub{line-height:1.8}
+.dtable{margin-top:14px;border:1px solid var(--line);border-radius:13px;overflow:hidden}
+.drow{display:grid;grid-template-columns:38px 1fr 62px 78px;gap:4px;align-items:center;padding:7px 10px;border-bottom:1px solid var(--line-soft);font-size:11px;font-variant-numeric:tabular-nums}
+.drow:last-child{border-bottom:0}
+.drow.hd{background:var(--line-soft);font-size:9px;font-weight:700;color:var(--faint);letter-spacing:.02em;padding:6px 10px}
+.drow .tid{font-weight:700;color:var(--muted)}
+.drow .qty{color:var(--muted);font-size:10.5px}
+.drow .dv{color:var(--ok);font-weight:700;text-align:right}
+.drow .tt{color:var(--ink);font-weight:700;text-align:right}
+.drow.cur{background:var(--coral-soft)}
+.drow.cur .tid{color:var(--coral-deep)}
+.drules{display:grid;gap:8px;margin-top:14px}
+.drule{display:flex;gap:9px;align-items:flex-start}
+.drule i{
   flex:none;width:19px;height:19px;border-radius:50%;background:var(--coral-soft);color:var(--coral-deep);
   font-style:normal;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:1px;
 }
-.ptrule b{display:block;font-size:11.5px;font-weight:700;color:var(--ink);line-height:1.4}
-.ptrule span{display:block;font-size:11px;color:var(--muted);line-height:1.55;margin-top:2px}
-html[lang="mm"] .ptrule span{line-height:1.75}
-.ptsec .ptnote{font-size:10px;color:var(--faint);margin-top:12px;line-height:1.6}
+.drule b{display:block;font-size:11.5px;font-weight:700;color:var(--ink);line-height:1.4}
+.drule span{display:block;font-size:11px;color:var(--muted);line-height:1.55;margin-top:2px}
+html[lang="mm"] .drule span{line-height:1.75}
+.dsec .dnote{font-size:10px;color:var(--faint);margin-top:12px;line-height:1.6}
 
 @media(min-width:900px){
-  .ptsec{margin:34px 46px 0;padding:28px 30px}
-  .ptsec h2{font-size:24px}
-  .ptrow{grid-template-columns:52px 1fr 96px 84px 70px;font-size:12.5px;padding:9px 14px}
-  .ptrow.hd{font-size:10px;padding:8px 14px}
-  .ptrule b{font-size:12.5px}
-  .ptrule span{font-size:12px}
+  .dsec{margin:34px 46px 0;padding:28px 30px}
+  .dsec h2{font-size:24px}
+  .drow{grid-template-columns:52px 1fr 96px 120px;font-size:12.5px;padding:9px 14px}
+  .drow.hd{font-size:10px;padding:8px 14px}
+  .drule b{font-size:12.5px}
+  .drule span{font-size:12px}
 }
-
-@media(min-width:900px){.card .cpoint{font-size:10px}}
 
 /* ================================================================ access gate */
 body.locked{overflow:hidden}
