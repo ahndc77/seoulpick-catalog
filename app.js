@@ -17,7 +17,7 @@
     mm: {
       hero_eyebrow: 'K-BEAUTY · INNER BEAUTY · 2026',
       hero_title: 'K-Beauty လက်ကား စျေးနှုန်း — ရန်ကုန်',
-      hero_sub: 'TikTok နှင့် ဆိုင်ပိုင်ရှင်များအတွက် ပါတနာ ပေးသွင်းစျေး · ပစ္စည်း ၃၃ မျိုး',
+      hero_sub: 'TikTok နှင့် ဆိုင်ပိုင်ရှင်များအတွက် ပါတနာ ပေးသွင်းစျေး · ပစ္စည်း ၃၇ မျိုး',
       stat_items: 'ကုန်ပစ္စည်း',
       stat_tiers: 'အဆင့် စနစ်',
       stat_currency: 'ကျပ်ငွေသာ',
@@ -149,7 +149,7 @@
     en: {
       hero_eyebrow: 'K-BEAUTY · INNER BEAUTY · 2026',
       hero_title: 'K-Beauty wholesale, priced for Yangon',
-      hero_sub: 'Partner supply pricing for TikTok sellers and shop owners · 33 items',
+      hero_sub: 'Partner supply pricing for TikTok sellers and shop owners · 37 items',
       stat_items: 'products',
       stat_tiers: 'tier system',
       stat_currency: 'in Kyat',
@@ -280,7 +280,7 @@
     zh: {
       hero_eyebrow: 'K-BEAUTY · INNER BEAUTY · 2026',
       hero_title: '韩国美妆批发价 · 仰光',
-      hero_sub: 'TikTok 卖家与门店的供货价，共 33 款',
+      hero_sub: 'TikTok 卖家与门店的供货价，共 37 款',
       stat_items: '款商品',
       stat_tiers: '阶梯价',
       stat_currency: '仅缅元',
